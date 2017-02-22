@@ -3,7 +3,7 @@ require 'formula'
 class X64ElfGdb < Formula
   homepage 'http://gcc.gnu.org'
   url 'http://ftp.gnu.org/gnu/gdb/gdb-7.6.tar.bz2'
-  sha1 'b64095579a20e011beeaa5b264fe23a9606ee40f'
+  sha256 'b64095579a20e011beeaa5b264fe23a9606ee40f'
 
   depends_on 'x64-elf-binutils'
   depends_on 'x64-elf-gcc'
