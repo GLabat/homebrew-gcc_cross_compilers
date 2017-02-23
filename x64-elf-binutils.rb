@@ -8,10 +8,10 @@ class X64ElfBinutils < Formula
   # depends_on 'apple-gcc42' => :build
 
   def install
-    ENV['CC'] = '/usr/local/bin/gcc-4.2'
-    ENV['CXX'] = '/usr/local/bin/g++-4.2'
-    ENV['CPP'] = '/usr/local/bin/cpp-4.2'
-    ENV['LD'] = '/usr/local/bin/gcc-4.2'
+    # ENV['CC'] = '/usr/local/bin/gcc-4.2'
+    # ENV['CXX'] = '/usr/local/bin/g++-4.2'
+    # ENV['CPP'] = '/usr/local/bin/cpp-4.2'
+    # ENV['LD'] = '/usr/local/bin/gcc-4.2'
 
     mkdir 'build' do
       system '../configure', '--disable-nls', '--target=x86_64-elf','--disable-werror',
