@@ -5,7 +5,7 @@ class X64ElfBinutils < Formula
   url 'http://ftp.gnu.org/gnu/binutils/binutils-2.23.tar.gz'
   sha256 '7909a08eabdbaac0f7a22e9ede82a66ba70acd50629b045e705af864eef10b65'
 
-  depends_on 'apple-gcc42' => :build
+  depends_on 'apple-gcc48' => :build
 
   def install
     ENV['CC'] = '/usr/local/bin/gcc-4.8'
